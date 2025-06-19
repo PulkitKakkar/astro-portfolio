@@ -1,19 +1,21 @@
 ---
 title: Pink Beauty Salon
 publishDate: 2024-01-06 00:00:00
-img: /assets/pink-beauty-salon.png
-img_alt: British Airways flight in air
+img: /assets/pink.jpg
+img_alt: Pink Beauty Salon website landing page
 description: |
   Website for salon services, and product promotions.
 tags:
-  - Design
-  - Shopify
-  - SEO
+  - Performance Max
+  - Paid Search
 ---
-For Pink Beauty Salon, the objective was to design and develop a Shopify website that showcases their salon services and products and enhances their brand's online presence. As their dedicated SEO strategist, I revitalised their existing website to highlight their premium offerings.
+As the dedicated Paid Search Analyst, I took ownership of Pink Beauty Salon's Google Ads account with a focus on Search, Shopping, and Performance Max campaigns. My approach was grounded in aligning campaign structure with business objectives—whether promoting their services the Reading showroom.
 
-I expanded their service offerings, ensuring each addition was strategically aligned with their brand. Significant attention was given to revamping the website's headers and footers, creating a more impactful and cohesive user experience.
+To maximise visibility and ROI, I:
+* Conducted keyword and competitor research to shape tightly themed ad groups.
+* Launched Performance Max campaigns to expand inventory reach and capture diverse intent signals.
+* Implemented smart bidding strategies and audience segmentation for improved cost-efficiency.
+* Continuously optimised campaigns by analysing CTR, CPA, and conversion volume trends.
+* Delivered monthly performance reports with actionable insights, helping refine the business’s digital strategy.
 
-A core part of my strategy involved leveraging Search Engine Optimization. I enriched their website with high-quality content tailored to each service, enhancing organic promotion and visibility. This SEO-centric approach was designed to attract more visitors and establish Pink Beauty Salon as a leader in its market segment.
-
-Through these targeted improvements, Pink Beauty Salon's website now stands as a testament to its excellence, easily discoverable by clients seeking top-tier beauty solutions.
+Through these efforts, the campaigns delivered measurable improvements in store visits, product enquiries, and overall online visibility—making Google Ads a central driver of Pink Beauty Salon's growth in a highly niche market.
