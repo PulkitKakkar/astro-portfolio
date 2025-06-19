@@ -20,3 +20,6 @@ build/
 # IDEs
 .vscode/
 .idea/
+
+personal
+personal.pub
