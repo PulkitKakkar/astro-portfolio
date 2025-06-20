@@ -9,13 +9,10 @@ tags:
   - Performance Max
   - Paid Search
 ---
-As the dedicated Paid Search Analyst, I took ownership of Pink Beauty Salon's Google Ads account with a focus on Search, Shopping, and Performance Max campaigns. My approach was grounded in aligning campaign structure with business objectives—whether promoting their services the Reading showroom.
+Pink Beauty Salon Ltd, a Reading-based small business, approached me with a clear objective: to increase local footfall for key services like laser hair removal, microblading, and Hydrafacial treatments—without exceeding a tight advertising budget.
 
-To maximise visibility and ROI, I:
-* Conducted keyword and competitor research to shape tightly themed ad groups.
-* Launched Performance Max campaigns to expand inventory reach and capture diverse intent signals.
-* Implemented smart bidding strategies and audience segmentation for improved cost-efficiency.
-* Continuously optimised campaigns by analysing CTR, CPA, and conversion volume trends.
-* Delivered monthly performance reports with actionable insights, helping refine the business’s digital strategy.
+After understanding the owner’s goals and target audience, I built the entire Google Ads strategy from scratch, starting with Search Ads that focused on high-intent, service-specific keywords like “laser hair removal Reading” and “Hydrafacial near me.” These campaigns were structured for maximum relevance and quality score, helping improve visibility within a limited spend.
 
-Through these efforts, the campaigns delivered measurable improvements in store visits, product enquiries, and overall online visibility—making Google Ads a central driver of Pink Beauty Salon's growth in a highly niche market.
+Once we established traction, I introduced Performance Max campaigns to expand reach across YouTube, Maps, and Display, using carefully curated creatives and audience signals to attract more potential clients.
+
+Despite the budget constraints, the campaigns delivered strong results in terms of reach, engagement, and bookings. The salon experienced a noticeable increase in enquiries and appointments—leading to significant business growth. Today, Pink Beauty Salon Ltd has expanded into one additional branches: one focusing exclusively on clinical treatments and another offering salon services, marking a major milestone that began with strategic paid advertising.
