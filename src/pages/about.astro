@@ -1,22 +1,25 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro';
+import BaseLayout from "../layouts/BaseLayout.astro";
 
-import ContactCTA from '../components/ContactCTA.astro';
-import Hero from '../components/Hero.astro';
+import ContactCTA from "../components/ContactCTA.astro";
+import Hero from "../components/Hero.astro";
 ---
 
-<BaseLayout title="About | Khushboo Choudhary" description="About Khushboo Choudhary Lorem Ipsum">
+<BaseLayout
+  title="About | Khushboo Choudhary"
+  description="About Khushboo Choudhary Lorem Ipsum"
+>
   <div class="stack gap-20">
     <main class="wrapper about">
       <Hero
-          title="About"
-          tagline="Thanks for stopping by. Read below to learn more about myself and my background."
+        title="About"
+        tagline="Thanks for stopping by. Read below to learn more about myself and my background."
       >
         <img
-            width="1553"
-            height="873"
-            src="/assets/at-work.jpeg"
-            alt="Khushboo Choudhary at work with a colleague"
+          width="1553"
+          height="873"
+          src="/assets/at-work.jpeg"
+          alt="Khushboo Choudhary at work with a colleague"
         />
       </Hero>
 
@@ -24,115 +27,103 @@ import Hero from '../components/Hero.astro';
         <h2 class="section-title">Background</h2>
         <div class="content">
           <p>
-            As a Full Stack Developer originally from India, currently working in the UK, I bring a wealth of experience
-            and a diverse skill set to my role.
-          </p>
-          <br/>
-          <p>
-            My expertise is particularly strong in Angular, JavaScript, and TypeScript, among other technologies.
-            Currently, I am contributing effectively to British Airways, under contract with Coforge UK Ltd. Over the
-            past five years, my career has evolved significantly. I began as a Backend Developer, advanced to a Subject
-            Matter Expert (SME), and have now grown into a versatile role encompassing both Frontend and Full Stack
-            Development responsibilities.
+            Experienced Digital Marketer and Google Ads Specialist with 5+ years
+            in performance marketing, paid media strategy, and search
+            advertising. Proven ability to scale business results through Google
+            Ads, strategic planning, and data-driven decision-making. Currently
+            working as a freelance SEM consultant, supporting two small
+            businesses in the retail and beauty sectors. Previous roles include
+            working with agencies like Pivotroots (Havas Media), Publicis
+            Sapient, and Cognizant, handling international clients and
+            large-scale digital campaigns.
           </p>
         </div>
       </section>
       <section>
         <h2 class="section-title">Education</h2>
         <div class="content">
-          <p>I completed my higher education in India, graduating in 2017 with a Bachelor of Technology degree in
-            Computer Science and Engineering from the esteemed Dr. A. P. J. Abdul Kalam Technical University. This educational
-            foundation has provided me with a strong basis in various aspects of computer science, which I have
-            continuously applied and expanded upon in my professional career.</p>
+          <p>
+            Graduated in 2017 with a Bachelor of Arts degree in Literature from
+            the University of Delhi. This academic foundation nurtured strong
+            analytical and communication skills, which have been instrumental in
+            crafting effective advertising strategies and client presentations.
+          </p>
         </div>
       </section>
       <section>
         <h2 class="section-title">Skills</h2>
         <div class="content">
           <ul>
-            <li>
-              Angular
-            </li>
-            <li>
-              HTML/CSS
-            </li>
-            <li>
-              RxJS
-            </li>
-            <li>
-              Amazon Web Services (AWS)
-            </li>
-            <li>
-              Adobe Target
-            </li>
-            <li>
-              JavaScript/TypeScript
-            </li>
-            <li>
-              Cypress
-            </li>
+            <li>Google Ads (Search Campaigns & Editor)</li>
+            <li>Search Engine Marketing (SEM)</li>
+            <li>Paid Media Strategy</li>
+            <li>Google Analytics</li>
+            <li>Appsflyer, Data Studio</li>
+            <li>Performance Reporting</li>
+            <li>Competitor & Audience Analysis</li>
+            <li>Client Communication & Consulting</li>
           </ul>
         </div>
       </section>
     </main>
-    <ContactCTA/>
+    <ContactCTA />
   </div>
 </BaseLayout>
 
 <style>
+  .about {
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+  }
+
+  img {
+    margin-top: 1.5rem;
+    border-radius: 1.5rem;
+    box-shadow: var(--shadow-md);
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    color: var(--gray-200);
+  }
+
+  .section-title {
+    grid-column-start: 1;
+    font-size: var(--text-xl);
+    color: var(--gray-0);
+  }
+
+  .content {
+    grid-column: 2 / 4;
+  }
+
+  .content :global(a) {
+    text-decoration: 1px solid underline transparent;
+    text-underline-offset: 0.25em;
+    transition: text-decoration-color var(--theme-transition);
+  }
+
+  .content :global(a:hover),
+  .content :global(a:focus) {
+    text-decoration-color: currentColor;
+  }
+
+  @media (min-width: 50em) {
     .about {
-        display: flex;
-        flex-direction: column;
-        gap: 3.5rem;
+      display: grid;
+      grid-template-columns: 1fr 60% 1fr;
     }
 
-    img {
-        margin-top: 1.5rem;
-        border-radius: 1.5rem;
-        box-shadow: var(--shadow-md);
+    .about > :global(:first-child) {
+      grid-column-start: 2;
     }
 
     section {
-        display: flex;
-        flex-direction: column;
-        gap: 0.5rem;
-        color: var(--gray-200);
+      display: contents;
+      font-size: var(--text-lg);
     }
-
-    .section-title {
-        grid-column-start: 1;
-        font-size: var(--text-xl);
-        color: var(--gray-0);
-    }
-
-    .content {
-        grid-column: 2 / 4;
-    }
-
-    .content :global(a) {
-        text-decoration: 1px solid underline transparent;
-        text-underline-offset: 0.25em;
-        transition: text-decoration-color var(--theme-transition);
-    }
-
-    .content :global(a:hover),
-    .content :global(a:focus) {
-        text-decoration-color: currentColor;
-    }
-
-    @media (min-width: 50em) {
-        .about {
-            display: grid;
-            grid-template-columns: 1fr 60% 1fr;
-        }
-
-        .about > :global(:first-child) {
-            grid-column-start: 2;
-        }
-
-        section {
-            display: contents;
-            font-size: var(--text-lg);
-        }
-    }
+  }
 </style>
